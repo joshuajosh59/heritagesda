@@ -1,0 +1,16 @@
+/* IE Only Styles */
+
+
+
+/* IE 8 Styles */
+.info-link { width: 24.8%;}
+.info-link a {
+	padding: 40% 15% 0 15%;
+	display: block;
+	width: 65%;
+	height: 105px;
+}
+
+input[type=text] { line-height: 33px;}
+#sub-nav form input[type=text] { line-height: 30px; }
+form.large-form input[type=text] { line-height: 50px; }

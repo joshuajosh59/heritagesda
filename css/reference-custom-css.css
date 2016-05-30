@@ -1,0 +1,21 @@
+.lbsTooltipHeader {
+	background: #438390;
+	color: white;
+	font-size: 13px;
+	line-height: 18px;
+	padding: 6px 8px;
+	text-transform: uppercase;
+}
+
+.lbsTooltip, .lbsTooltipBody span, .lbsTooltip a, .lbsTooltipBody p {
+	font: 'chaparral-pro', sans-serif;
+}
+
+.lbsTooltipFooter a:link, .lbsTooltipFooter a:visited, .lbsTooltipFooter a:hover {
+	color: #f9b000;
+}
+
+.lbsTooltipBody p, .lbsTooltipBody span {
+	color: #333;
+	line-height: 18px;
+}
