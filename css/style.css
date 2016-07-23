@@ -284,7 +284,7 @@ header#home #logo a { left: 0; }
 
 #sub-hero.my-hero-example { background: url(../img/hero-family.jpg) no-repeat 50% 100%; }
 
-#sub-heroe { background: url(../img/hero-family.jpg) no-repeat 50% 50%; }
+#sub-heroe { background: url(../img/hero-beliefs.jpg) no-repeat 50% 50%; }
 #sub-heroe .container { height: 184px; }
 #sub-heroe h1 {
     position: absolute;
@@ -1027,7 +1027,7 @@ header#home #logo a { left: 0; }
 }
 
 #right-callout a {
-    color: #7e7667;
+    color: #f9b000;;
     display: block;
     text-decoration: none;
     font: 300 13px/31px 'Merriweather';

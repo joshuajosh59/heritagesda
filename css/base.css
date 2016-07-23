@@ -1,0 +1,496 @@
+/**
+ * $Id: ams_eventmanager.css 2164 2013-02-24 10:51:01Z Tobias $
+ */
+
+/* Headlines */
+h1 {
+	font: 700 28px/36px 'Montserrat';
+	color: #f9b000; /* Yellow */
+	letter-spacing: -1px;
+	margin: 0 0 22px;
+}
+h1 a {
+	color: #f9b000; /* Yellow */
+}
+h2 {
+	letter-spacing: 1px;
+	font: 600 20px/20px 'Montserrat';
+	color: #f9b000; /* Yellow */
+	margin: 0 0 15px;
+	text-transform: uppercase;
+}
+h2 a {
+	color: #f9b000; /* Yellow */
+}
+h3 {
+	font: 400 20px/26px 'Merriweather';
+	color: #438390; /* Blue */
+	margin: 0 0 45px;
+}
+h3 a {
+	color: #438390; /* Blue */
+}
+h3.IconBook {
+	text-transform: uppercase;
+}
+h3.IconNews {
+	text-transform: uppercase;
+}
+h4 {
+	font: 600 16px/22px 'Montserrat';
+	color: #575a5c; /* Dark grey */
+	margin: 0 0 4px;
+	text-transform: uppercase;
+}
+h4 a {
+	color: #575a5c; /* Dark grey */
+}
+
+/* Paragraphs */
+p {
+	font: 400 14px/22px 'Merriweather';
+	color: #575a5c; /* Dark grey */
+	margin: 0 0 30px;
+}
+p.SmallSpace {
+	margin: 0 0 15px;
+}
+p.FormSpace {
+	margin: 0 0 20px;
+}
+p.ImageRightCallout {
+	float: right;
+}
+p.ImageLeftCallout {
+	float: left;
+}
+p.FullImage img {
+	border-radius: 4px;
+}
+p.SectionCircleImage {
+	margin: 0;
+}
+p.Error {
+	color: #df8080; /* Middle Red */
+	margin: 7px 0 0;
+}
+.Large p.Error {
+	margin: -5px 0 30px;
+}
+p.FormHelp {
+	margin: -10px 0 30px 0;
+	font: 200 13px/18px 'Merriweather';
+	color: #aaa; /* Middle grey */
+}
+p.Message {
+	background-color: #87adc4; /* Middle blue */
+	padding: 30px;
+	border-radius: 4px;
+	color: #fff; /* White */
+}
+p.Message .Notice {
+	font: 200 13px/18px 'Merriweather';
+	display: block;
+	padding-top: 15px;
+}
+p.ErrorMessage {
+	background-color: #df8080; /* Middle Red */
+	padding: 30px;
+	border-radius: 4px;
+	color: #fff; /* White */
+}
+p.Date {
+	font: 300 14px/22px 'Montserrat';
+	color: #8c9093; /* Middle grey 3 */
+	margin: 0 0 15px;
+}
+
+/* Buttons */
+p.Button, p.Buttons, p.ButtonWhite, p.ButtonGo, p.LinkOut, p.More {
+	margin: 0 !important;
+	display: inline-block;
+}
+p.Button a, p.ButtonGo a {
+	text-decoration: none;
+	font: 400 13px/13px 'Montserrat';
+	padding: 4px 10px;
+	border-radius: 4px;
+	color: #f9b000; /* Yellow */
+	border: 2px solid #f9b000; /* Yellow */
+}
+p.Buttons a {
+	text-decoration: none;
+	font: 400 13px/13px 'Montserrat';
+	padding: 4px 10px;
+	border-radius: 4px;
+	color: #f9b000; /* Yellow */
+	border: 2px solid #f9b000; /* Yellow */
+	display: inline-block;
+	margin: 0 10px 15px 0;
+}
+p.Button a:hover, p.ButtonGo a:hover, p.Buttons a:hover {
+	color: #df9e00; /* Dark yellow */
+	border-color: #df9e00; /* Dark yellow */
+}
+p.ButtonWhite a {
+	text-decoration: none;
+	font: 400 13px/13px 'Montserrat';
+	padding: 4px 10px;
+	border-radius: 4px;
+	color: #fff; /* White */
+	border: 2px solid #fff; /* White */
+}
+p.ButtonWhite a:hover {
+	color: #f9b000; /* Yellow */
+	border-color: #f9b000; /* Yellow */
+}
+p.ButtonGo a {
+	padding-right: 36px;
+	background: url(../Images/IconSprite.png) no-repeat right -476px;
+}
+p.LinkOut a {
+	padding-left: 20px;
+	background: url(../Images/IconLink.png) no-repeat 0 4px;
+}
+p.Iframe-16-9,
+p.Iframe-4-3 {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 0px;
+	height: 0;
+	overflow: hidden;
+}
+p.Iframe-4-3 {
+	padding-bottom: 75%;
+}
+p.Iframe-16-9 iframe,
+p.Iframe-4-3 iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Lists */
+ul {
+	margin: 0 0 30px 15px;
+	list-style-type: disc;
+}
+ol {
+	margin: 0 0 30px 22px;
+}
+li {
+	margin: 0 0 4px;
+	font: 400 14px/22px 'Merriweather';
+	color: #575a5c; /* Dark grey */
+}
+ul li ul {
+	margin: 4px 0 0 15px;
+}
+ol li ol {
+	margin: 4px 0 0 22px;
+}
+
+/* Tables */
+table {
+	margin: 0 0 30px 0;
+	padding: 0;
+}
+table.FullWidth {
+	width: 100%;
+	clear: both;
+}
+th, td {
+	padding: 10px 20px;
+	text-align: left;
+	border-bottom: 1px solid #e9e9e9; /* Table grey 1 */
+	font: 400 14px/22px 'Merriweather';
+	vertical-align: top;
+	color: #575a5c; /* Dark grey */
+}
+th.Right, td.Right {
+	text-align: right;
+}
+th {
+	border-width: 2px;
+}
+tr:last-child td {
+	border-bottom: none;
+}
+tr:nth-child(even) {
+	background: #f4f4f4; /* Table grey 2 */
+}
+
+/* Links */
+a {
+	color: #f9b000; /* Yellow */
+	text-decoration: none;
+}
+a, a:hover, a:active {
+	outline: none;
+}
+a:link {
+	-webkit-tap-highlight-color: #87adc4; /* Middle blue */
+}
+p.Message a, p.ErrorMessage a {
+	color: #fff; /* White */
+	text-decoration: underline;
+}
+
+/* Others */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ded6c3; /* Light brown */
+	margin: 1.3em 0;
+	padding: 0;
+}
+hr.Separator {
+	margin: 3.5em 0 -1.4em 15%;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+pre, code, kbd, samp {
+	font-family: monospace, sans-serif;
+}
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	padding: 15px;
+}
+sub, sup {
+	font-size: 80%;
+	line-height: 0;
+	position: relative;
+}
+sup {
+	top: -0.45em;
+}
+aside sup {
+	font-size: 100%;
+	top: -0.1em;
+	margin-right: 2px;
+}
+sub {
+	bottom: -0.25em;
+}
+span.Date {
+	font: 300 11px/13px 'Montserrat';
+	color: #8c9093; /* Middle grey 3 */
+	display: block;
+}
+
+/* Forms */
+form {
+	margin: 0 0 30px;
+}
+form ::-webkit-input-placeholder {
+	color: #ccc; /* Grey */
+}
+form :-moz-placeholder {
+	color: #ccc; /* Grey */
+}
+form ::-moz-placeholder {
+	color: #ccc; /* Grey */
+}
+form :-ms-input-placeholder {
+	color: #ccc; /* Grey */
+}
+select, input, textarea {
+	color: #333; /* Light black */
+}
+input[type="text"], input[type="password"], select {
+	margin: 0 8px 8px 0;
+	width: 180px;
+	height: 33px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	outline: 0;
+	color: #f9b000; /* Yellow */
+	border: 1px solid #ccc; /* Grey */
+	border-radius: 4px;
+}
+input[type="button"].SelectFile {
+	margin: 0 8px 8px 0;
+	height: 33px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 15px;
+	outline: 0;
+	color: #fff; /* White */
+	background: #ccc; /* Grey */
+	border-radius: 4px;
+}
+input[type="checkbox"], input[type="radio"] {
+	margin: 0 10px 0 11px;
+}
+label {
+	font: 200 15px/24px 'Montserrat';
+	color: #aaa; /* Middle grey */
+}
+legend {
+	font: 400 15px/24px 'Montserrat';
+	color: #777; /* Middle dark grey */
+}
+fieldset {
+	margin: 0 0 20px;
+}
+.Radio label {
+	margin: 0 10px 0 0;
+}
+select {
+	width: auto;
+	padding: 8px 8px;
+	height: 37px;
+}
+optgroup {
+	font-weight: bold;
+	font-style: normal;
+}
+form.Large input[type="text"], form.Large input[type="password"], form.Large select {
+	width: 50%;
+	height: 50px;
+	display: block;
+	margin: 0 0 20px;
+}
+form.Large input[type="button"].SelectFile {
+	height: 50px;
+	display: block;
+	margin: 0 0 20px;
+}
+form.Large select {
+	width: 52.9%;
+	padding: 16px 8px;
+	height: 54px;
+}
+input[type="submit"] {
+	display: inline-block;
+	margin-top: -8px;
+	outline: 0;
+	border: none;
+	color: #fff; /* White */
+	height: 37px;
+	font-family: 'Montserrat';
+	font-size: 13px;
+	padding: 8px 20px;
+	border-radius: 4px;
+	background: #f9b000; /* Yellow */
+}
+input[type="button"] {
+	display: inline-block;
+	margin-top: -8px;
+	outline: 0;
+	border: none;
+	color: #fff; /* White */
+	height: 37px;
+	font-family: 'Montserrat';
+	font-size: 13px;
+	padding: 8px 20px;
+	border-radius: 4px;
+	background: #ccc; /* Grey */
+}
+textarea {
+	display: block;
+	width: 70%;
+	height: 120px;
+	padding: 8px;
+	margin: 0 0 20px;
+	font-family: 'Montserrat';
+	font-size: 13px;
+	outline: 0;
+	color: #f9b000; /* Yellow */
+	border: 1px solid #ccc; /* Grey */
+	border-radius: 4px;
+}
+input:invalid, textarea:invalid, input.Error, textarea.Error, select.Error {
+	border-radius: 1px;
+	box-shadow: 0 0 5px #ff0000; /* Red */
+	-moz-box-shadow: 0 0 5px #ff0000; /* Red */
+	-webkit-box-shadow: 0 0 5px #ff0000; /* Red */
+}
+.NoBoxShadow input:invalid, .NoBoxShadow textarea:invalid {
+	background-color: #f0dddd; /* Light red */
+}
+
+/* Definition lists*/
+dl {
+	margin: 0 0 30px;
+}
+dt {
+	font: 600 14px/22px 'Merriweather';
+	color: #575a5c; /* Dark grey */
+}
+dd {
+	font: 400 14px/22px 'Merriweather';
+	color: #575a5c; /* Dark grey */
+	margin: 0 0 15px 0;
+}
+dl.Horizontal {
+	clear: both;
+}
+dl.Horizontal dt {
+	margin: 0 0 15px 0;
+	float: left;
+	width: 42%;
+	text-align: right;
+}
+dl.Horizontal dd {
+	margin: 0 0 0 44%;
+}
+dl.Horizontal dd:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* Media queries */
+@media only screen and (max-width: 1024px) {
+	p.Button a, p.Buttons a, p.ButtonWhite a {
+		font: 400 12px/12px 'Montserrat';
+		padding: 8px 12px;
+	}
+	input[type="text"], input[type="password"] {
+		width: 170px;
+	}
+}
+@media only screen and (max-width: 960px) {
+	hr.Separator {
+		margin: 0 8%;
+	}
+	input[type="text"], input[type="password"], textarea, form.Large input[type="text"], form.Large input[type="password"] {
+		width: 90%;
+	}
+	form.Large select {
+		width: 92.9%;
+	}
+	input[type="submit"] {
+		margin-top: 0;
+		display: block;
+	}
+}
+@media only screen and (max-width: 480px) {
+	input[type="text"], input[type="password"], textarea, form.Large input[type="text"], form.Large input[type="password"] {
+		width: 90%;
+	}
+	input[type="submit"] {
+		margin-top: 0;
+	}
+	dl.Horizontal dt {
+		margin: 0;
+		float: none;
+		width: auto;
+		text-align: left;
+	}
+	dl.Horizontal dd {
+		margin: 0 0 15px 0;
+	}
+}
